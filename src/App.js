@@ -1,8 +1,6 @@
-import App from 'rmw-shell'
-import React from 'react'
-import config from './config'
-import configureStore from './store'
+import React from "react";
+import MaterialUI from "./MaterialUI";
 
-const Main = () => <App appConfig={{ configureStore, ...config }} />
+const Main = () => <MaterialUI />;
 
-export default Main
+export default Main;
